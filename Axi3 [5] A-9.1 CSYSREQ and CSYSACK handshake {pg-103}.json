@@ -1,0 +1,14 @@
+{signal: [
+ 
+  {name: "CSYSREQ",  wave: "10.1.",  data:[""]},
+  {name: "CSYSACK",  wave: "1.0.1",  data:[""]},
+  ],
+  
+  head:{
+  text:"CSYSREQ and CSYSACK handshake",
+   tick:0,
+ },
+ foot:{
+   text:'Figure A9-1',
+   tock:8
+ },}

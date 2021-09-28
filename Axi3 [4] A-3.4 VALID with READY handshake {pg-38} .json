@@ -1,0 +1,14 @@
+{signal: [
+  {name: "ACLK",         wave: "p..."},
+  {name: "INFORMATION",  wave: "x2x.",  data:[""]},
+  {name: "VALID",  wave: "010.",  data:["VALID"]},
+  {name: "READY",  wave: "010.",  data:["VALID"]},
+  ],
+  head:{
+  text:"VALID with READY handshake",
+   tick:0,
+ },
+ foot:{
+   text:'Figure A3-4',
+   tock:8
+ },}

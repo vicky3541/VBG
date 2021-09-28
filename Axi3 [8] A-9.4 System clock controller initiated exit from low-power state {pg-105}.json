@@ -1,0 +1,17 @@
+{signal: [
+ 
+  {name: "CSYSREQ",  wave: "01...",  data:[""]},
+  {name: "CACTIVE",  wave: "0.1..",  data:[""]},
+  {name: "CSYSACK",  wave: "0..1.",  data:[""]},
+  {name: "CLK",      wave: "0p...",  data:[""]},
+ 
+  ],
+  
+  head:{
+  text:"System clock controller initiated exit from low-power state",
+   tick:0,
+ },
+ foot:{
+   text:'Figure A9-4',
+   tock:8
+ },}

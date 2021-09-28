@@ -1,0 +1,17 @@
+{signal: [
+ 
+  {name: "CSYSREQ",  wave: "10...",  data:[""]},
+  {name: "CACTIVE",  wave: "1.0..",  data:[""]},
+  {name: "CSYSACK",  wave: "1..0.",  data:[""]},
+  {name: "CLK",      wave: "p....",  data:[""]},
+ 
+  ],
+  
+  head:{
+  text:"Acceptance of a low-power request",
+   tick:0,
+ },
+ foot:{
+   text:'Figure A9-2',
+   tock:8
+ },}
